@@ -16,19 +16,15 @@ Operacions::~Operacions(){
 
 
 
-/*
- * Fa un random mòdul 5, de moment (5 personatges)
- */
 
 int Operacions::ferRandom(){
     unsigned char rnd;
-    int num_opcions = 48;
-    int magic_number = 0;
+    int result;
     ifstream random_input("/dev/urandom",ios::binary);
     random_input.read((char*)&rnd,1);
-    magic_number = (unsigned int)((double)((double)rnd/(double)255.0)*num_opcions);
+    result = (unsigned int)((double)((double)rnd/(double)255.0)*48);
     random_input.close();
-    return magic_number;
+    return result;
 }
 
 

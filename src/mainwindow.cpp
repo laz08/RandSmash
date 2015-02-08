@@ -10,7 +10,7 @@ int MainWindow::doRandom(){
 
 void MainWindow::choosePicture(QPixmap &p){
     int charac = doRandom();
-    //TODO: Is there a better way to improve this?
+    //TODO: Is there a better way and improve this?
     string path = ":/chars/";
     stringstream ss;
     ss << charac;
@@ -50,6 +50,7 @@ void MainWindow::assignCharToPlayers(){
         QPixmap p;
         choosePicture(p);
         ui->Res1->setPixmap(p);
+        sleep(0.01); //to avoid having the same character
         choosePicture(p);
         ui->Res2->setPixmap(p);
         ui->Res3->clear();
@@ -59,8 +60,10 @@ void MainWindow::assignCharToPlayers(){
         QPixmap p;
         choosePicture(p);
         ui->Res1->setPixmap(p);
+        sleep(0.01);
         choosePicture(p);
         ui->Res2->setPixmap(p);
+        sleep(0.01);
         choosePicture(p);
         ui->Res3->setPixmap(p);
         ui->Res4->clear();
@@ -69,10 +72,13 @@ void MainWindow::assignCharToPlayers(){
         QPixmap p;
         choosePicture(p);
         ui->Res1->setPixmap(p);
+        sleep(0.01);
         choosePicture(p);
         ui->Res2->setPixmap(p);
+        sleep(0.01);
         choosePicture(p);
         ui->Res3->setPixmap(p);
+        sleep(0.01);
         choosePicture(p);
         ui->Res4->setPixmap(p);
     }

@@ -6,7 +6,7 @@ class Operacions {
 
     public:
 
-      /* Constructores */
+      /* Constructora */
       Operacions();
 
       /* Destructora por defecte */
