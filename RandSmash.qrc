@@ -1,0 +1,53 @@
+<RCC>
+    <qresource prefix="/chars" lang="ca">
+        <file alias="0">pics/aldeano.jpg</file>
+        <file alias="1">pics/bowser.jpg</file>
+        <file alias="2">pics/bowsy.jpg</file>
+        <file alias="3">pics/capt_falcon.jpg</file>
+        <file alias="4">pics/charizard.jpg</file>
+        <file alias="5">pics/daraen.jpg</file>
+        <file alias="6">pics/diddy.jpg</file>
+        <file alias="7">pics/donkey.jpg</file>
+        <file alias="8">pics/dr_mario.jpg</file>
+        <file alias="9">pics/duo_duck_hunt.jpg</file>
+        <file alias="10">pics/entrenadora.jpg</file>
+        <file alias="11">pics/estela.jpg</file>
+        <file alias="12">pics/falco.jpg</file>
+        <file alias="13">pics/fox.jpg</file>
+        <file alias="14">pics/ganondorf.jpg</file>
+        <file alias="15">pics/greninja.jpg</file>
+        <file alias="16">pics/ike.jpg</file>
+        <file alias="17">pics/kiggly.jpg</file>
+        <file alias="18">pics/kirby.jpg</file>
+        <file alias="19">pics/link.jpg</file>
+        <file alias="20">pics/little_mac.jpg</file>
+        <file alias="21">pics/lucario.jpg</file>
+        <file alias="22">pics/lucina.jpg</file>
+        <file alias="23">pics/luigi.jpg</file>
+        <file alias="24">pics/mario.jpg</file>
+        <file alias="25">pics/marth.jpg</file>
+        <file alias="26">pics/megaman.jpg</file>
+        <file alias="27">pics/meta_knight.jpg</file>
+        <file alias="48">pics/mii.jpg</file>
+        <file alias="29">pics/mr_game_watch.jpg</file>
+        <file alias="30">pics/ness.jpg</file>
+        <file alias="31">pics/olimar.jpg</file>
+        <file alias="32">pics/pac-man.jpg</file>
+        <file alias="33">pics/palutena.jpg</file>
+        <file alias="34">pics/pikachu.jpg</file>
+        <file alias="35">pics/pit.jpg</file>
+        <file alias="36">pics/pit_dark.jpg</file>
+        <file alias="37">pics/princesa-peach.jpg</file>
+        <file alias="38">pics/rey-dedede.jpg</file>
+        <file alias="39">pics/rob.jpg</file>
+        <file alias="40">pics/samus.jpg</file>
+        <file alias="41">pics/samus_zero.jpg</file>
+        <file alias="42">pics/sheik.jpg</file>
+        <file alias="43">pics/shulk.jpg</file>
+        <file alias="44">pics/sonic.jpg</file>
+        <file alias="45">pics/toon_link.jpg</file>
+        <file alias="46">pics/wario.jpg</file>
+        <file alias="47">pics/yoshi.jpg</file>
+        <file alias="28">pics/zelda.jpg</file>
+    </qresource>
+</RCC>
